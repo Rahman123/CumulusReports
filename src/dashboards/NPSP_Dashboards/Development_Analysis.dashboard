@@ -63,7 +63,7 @@
             <enableHover>true</enableHover>
             <expandOthers>false</expandOthers>
             <groupingColumn>ACCOUNT_RECORDTYPE</groupingColumn>
-            <groupingColumn>FISCAL_YEAR</groupingColumn>
+            <groupingColumn>YEAR</groupingColumn>
             <header>Giving by Acc Record Type Last 3yrs</header>
             <legendPosition>Bottom</legendPosition>
             <report>NPSP_Dashboard_Reports/DASH_Giving_by_Record_Type_Last_Three_Years</report>
@@ -153,7 +153,7 @@
             <enableHover>true</enableHover>
             <expandOthers>false</expandOthers>
             <groupingColumn>RECORDTYPE</groupingColumn>
-            <groupingColumn>FISCAL_YEAR</groupingColumn>
+            <groupingColumn>YEAR</groupingColumn>
             <header>Giving by Opp Record Type Last 3 yrs</header>
             <legendPosition>Bottom</legendPosition>
             <report>NPSP_Dashboard_Reports/DASH_Giving_by_Record_Type_Last_Three_Years</report>

@@ -22,7 +22,7 @@
     <columns>
         <field>FK_OPP_STAGE_NAME</field>
     </columns>
-    <description>A list of Opportunities, grouped by General Accounting Unit and Fiscal Year. Excludes lost Opportunities.</description>
+    <description>A list of Opportunities, grouped by General Accounting Unit and Year. Excludes lost Opportunities.</description>
     <filter>
         <criteriaItems>
             <column>FK_OPP_PROBABILITY</column>
@@ -39,7 +39,7 @@
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <groupingsDown>
-        <dateGranularity>FiscalYear</dateGranularity>
+        <dateGranularity>Year</dateGranularity>
         <field>FK_OPP_CLOSE_DATE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>

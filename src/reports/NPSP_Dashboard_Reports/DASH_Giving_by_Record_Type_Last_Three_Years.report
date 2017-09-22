@@ -13,9 +13,6 @@
         <field>CREATED_DATE</field>
     </columns>
     <columns>
-        <field>CLOSE_DATE</field>
-    </columns>
-    <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>AMOUNT</field>
     </columns>
@@ -32,7 +29,7 @@
     <format>Matrix</format>
     <groupingsAcross>
         <dateGranularity>Day</dateGranularity>
-        <field>FISCAL_YEAR</field>
+        <field>CLOSE_DATE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsAcross>
     <groupingsDown>
@@ -63,6 +60,6 @@
     <showDetails>false</showDetails>
     <timeFrameFilter>
         <dateColumn>CLOSE_DATE</dateColumn>
-        <interval>INTERVAL_PREVCUR2FY</interval>
+        <interval>INTERVAL_PREVCUR2Y</interval>
     </timeFrameFilter>
 </Report>

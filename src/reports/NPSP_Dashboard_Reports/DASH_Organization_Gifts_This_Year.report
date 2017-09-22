@@ -86,6 +86,6 @@
     <sortOrder>Desc</sortOrder>
     <timeFrameFilter>
         <dateColumn>CLOSE_DATE</dateColumn>
-        <interval>INTERVAL_CURFY</interval>
+        <interval>INTERVAL_CURY</interval>
     </timeFrameFilter>
 </Report>

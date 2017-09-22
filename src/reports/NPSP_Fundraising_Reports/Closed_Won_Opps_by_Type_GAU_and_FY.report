@@ -16,7 +16,7 @@
     <columns>
         <field>FK_OPP_AMOUNT</field>
     </columns>
-    <description>Matrix report of Closed/Won Opportunities by Record Type, GAU Allocation, and Fiscal Year.</description>
+    <description>Matrix report of Closed/Won Opportunities by Record Type, GAU Allocation, and Year.</description>
     <filter>
         <criteriaItems>
             <column>FK_OPP_WON</column>
@@ -28,7 +28,7 @@
     </filter>
     <format>Matrix</format>
     <groupingsAcross>
-        <dateGranularity>FiscalYear</dateGranularity>
+        <dateGranularity>Year</dateGranularity>
         <field>FK_OPP_CLOSE_DATE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsAcross>
@@ -42,7 +42,7 @@
         <field>npsp__Allocation__c.npsp__General_Accounting_Unit__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Closed/Won Opps by Type, GAU, and FY</name>
+    <name>Closed/Won Opps by Type, GAU, and Year</name>
     <params>
         <name>co</name>
         <value>0</value>

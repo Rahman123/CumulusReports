@@ -75,6 +75,6 @@
     <sortOrder>Desc</sortOrder>
     <timeFrameFilter>
         <dateColumn>CLOSE_DATE</dateColumn>
-        <interval>INTERVAL_PREVCURFY</interval>
+        <interval>INTERVAL_PREVCURY</interval>
     </timeFrameFilter>
 </Report>

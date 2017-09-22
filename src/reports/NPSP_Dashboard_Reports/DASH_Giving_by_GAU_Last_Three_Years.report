@@ -28,7 +28,7 @@
     </filter>
     <format>Matrix</format>
     <groupingsAcross>
-        <dateGranularity>FiscalYear</dateGranularity>
+        <dateGranularity>Year</dateGranularity>
         <field>FK_OPP_CLOSE_DATE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsAcross>
@@ -52,6 +52,6 @@
     <showDetails>false</showDetails>
     <timeFrameFilter>
         <dateColumn>FK_OPP_CLOSE_DATE</dateColumn>
-        <interval>INTERVAL_PREVCUR2FY</interval>
+        <interval>INTERVAL_PREVCUR2Y</interval>
     </timeFrameFilter>
 </Report>

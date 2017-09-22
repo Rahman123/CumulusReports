@@ -53,9 +53,9 @@
         <members>NPSP_Fundraising_Reports/Accounts_by_Best_Gift_Year</members>
         <members>NPSP_Fundraising_Reports/Campaign_ROI_Analysis</members>
         <members>NPSP_Fundraising_Reports/Closed_Won_Opps_Household</members>
-        <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_GAU_and_FY</members>
-        <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_and_Fiscal_Year</members>
+        <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_GAU_and_Year</members>
         <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_and_Payment</members>
+        <members>NPSP_Fundraising_Reports/Closed_Won_Opps_by_Type_and_Year</members>
         <members>NPSP_Fundraising_Reports/Contact_LYBUNT2</members>
         <members>NPSP_Fundraising_Reports/Contact_SYBUNT2</members>
         <members>NPSP_Fundraising_Reports/Contacts_by_Best_Gift_Year</members>
